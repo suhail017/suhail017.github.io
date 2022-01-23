@@ -26,7 +26,7 @@ I am proficient at handling, analyzing, and processing meteorological and geospa
   - March 2021 - Present
 
 
-###### Responsibilities
+### Responsibilities
 1. Developing a Stochastic Weather Generator for Mid-Atlantic region focusing extreme climate events.
 2. Climate Data Analyst of Chesapeake Bay Coastal Climate Extension Program.
 3. MARISA project team member which helps Mid-Atlantic communities become more resilient to a changing climate through improved data, place-based decision support, and public engagement.
@@ -40,7 +40,8 @@ processes and interactions.
 - **Postdoctoral Researcher  
 [Atmopsheric Physics Lab](https://sites.google.com/view/atmphyutep/home)  
 [University of Texas at El paso](www.utep.edu)**  
-  -January 2021 - March 2021
+   - January 2021 - March 2021
+   
 ###### Responsibilities
 1. Analysis of Mesoscale and Synoptic Scale Meteorological Influences on Ozone.
 2. Inter-comparison of PBL using instrumental and simulation values and Interpretation of the results.
@@ -53,7 +54,7 @@ processes and interactions.
 [University of Texas at El paso](www.utep.edu)**  
   - August 2014 - December 2020  
 
-###### Responsibilities
+### Responsibilities
 1. Developed an ensemble method for determining the Planetary boundary layer
 2. Down-scaling regional weather model for Paso del Norte region to achieve more efficient and accurate forecast and prediction using data mining and machine
 learning algorithms.
