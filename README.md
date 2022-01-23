@@ -42,7 +42,7 @@ processes and interactions.
 [University of Texas at El paso](www.utep.edu)**  
    - January 2021 - March 2021
    
-###### Responsibilities
+### Responsibilities
 1. Analysis of Mesoscale and Synoptic Scale Meteorological Influences on Ozone.
 2. Inter-comparison of PBL using instrumental and simulation values and Interpretation of the results.
 3. System Administrator of Lab’s Server and HPC Cluster.
