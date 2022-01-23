@@ -24,6 +24,8 @@ I am proficient at handling, analyzing, and processing meteorological and geospa
 [Earth and Environmental Systems Institute](https://www.eesi.psu.edu/directory/suhail-mahmud)  
 [The Pennsylvania State University](www.psu.edu)**
   - March 2021 - Present
+
+
 ###### Responsibilities
 1. Developing a Stochastic Weather Generator for Mid-Atlantic region focusing extreme climate events.
 2. Climate Data Analyst of Chesapeake Bay Coastal Climate Extension Program.
@@ -61,6 +63,3 @@ learning algorithms.
 
 ![image](https://user-images.githubusercontent.com/18476138/150697746-7ccaf17e-7b9b-4496-9fe5-f2322f9176d1.png)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
