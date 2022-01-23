@@ -25,15 +25,14 @@ I am proficient at handling, analyzing, and processing meteorological and geospa
 [The Pennsylvania State University](www.psu.edu)**
   - March 2021 - Present
 ###### Responsibilities
-1. Developing a Stochastic Weather Generator for Mid-Atlantic region focusing
-extreme climate events.
+1. Developing a Stochastic Weather Generator for Mid-Atlantic region focusing extreme climate events.
 2. Climate Data Analyst of Chesapeake Bay Coastal Climate Extension Program.
-3. MARISA project team member which helps Mid-Atlantic communities become
-more resilient to a changing climate through improved data, place-based decision support, and public engagement.
+3. MARISA project team member which helps Mid-Atlantic communities become more resilient to a changing climate through improved data, place-based decision support, and public engagement.
 4. HPC specialist at the ROAR supercomputer located at PSU.
 5. Working at the INTEGRATED COASTAL MODELING (ICoM) which tackles
 key uncertainties associated with the evolution of coastal systems by developing and applying computational models that can simulate the complex multi-scale
 processes and interactions.
+
 ![IMG_0967](https://user-images.githubusercontent.com/18476138/150695379-6ee16c7a-c5b0-4743-aabb-94d38f5fb048.JPG)
 
 - **Postdoctoral Researcher  
