@@ -1,36 +1,66 @@
-## Welcome to GitHub Pages
+# Welcome to Suhail Mahmud's Website
 
-You can use the [editor on GitHub](https://github.com/suhail017/suhail017.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Hi, welcome to my world. My name is Suhail Mahmud, an Atmospheric Data Scientist and HPC/AI enthuiastic working to solve the world's complex problems (and hopefully solve them along the way)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About Me
 
-### Markdown
+My educational background is in Computational Science, which i have Master's and Phd in from University of Texas at Elpaso. My Doctorate thesis was on the topic of **"Optimization Of Regional Scale Numerical Weather Prediction & Air Quality Model For The Paso Del Norte Region"**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+My research is directly related to climate models, atmospheric science, meteorology, and atmospheric dynamics, multi-sector dynamics. Another important goal of the research was to model the vertical profile of pollutants and other meteorological parameters using different satellite-based data (Sounder profile, Lidar) and launching ozonesonde and radiosonde into the atmosphere to retrieve meteorological data.
 
-```markdown
-Syntax highlighted code block
+I am proficient at handling, analyzing, and processing meteorological and geospatial datasets from different sources in various formats, such as NetCDF, GRIB, HDF, etc.  Conducting comprehensive statistical and numerical analysis with Fortran, Python, R, and Matlab was also part of my job responsibilities as a research assistant.I have an in-depth understanding of algorithms, have a great mastery of data visualization using  MatLab and Python, and have proficiency in Python data libraries like the panda, NumPy and SciPy, R and  Corresponding libraries, SQL. I am equally experienced in the Linux environment and High performance computing cluster with AWS due to my research-oriented nature. Applying different parallel computing methods like MPI, OpenMP were also part of my research interest. 
 
-# Header 1
-## Header 2
-### Header 3
+## Educational Background
 
-- Bulleted
-- List
+- Ph.D at Computational Science, University of Texas at El Paso
+  - August 2016 - December 2020
+  
+- Masters at Computational Science, University of Texas at El Paso
+  - August 2014 - August 2016
 
-1. Numbered
-2. List
+## Work Experience
 
-**Bold** and _Italic_ and `Code` text
+- **Posdoctoral Scholar   
+[Earth and Environmental Systems Institute](https://www.eesi.psu.edu/directory/suhail-mahmud)  
+[The Pennsylvania State University](www.psu.edu)**
+  - March 2021 - Present
+###### Responsibilities
+1. Developing a Stochastic Weather Generator for Mid-Atlantic region focusing
+extreme climate events.
+2. Climate Data Analyst of Chesapeake Bay Coastal Climate Extension Program.
+3. MARISA project team member which helps Mid-Atlantic communities become
+more resilient to a changing climate through improved data, place-based decision support, and public engagement.
+4. HPC specialist at the ROAR supercomputer located at PSU.
+5. Working at the INTEGRATED COASTAL MODELING (ICoM) which tackles
+key uncertainties associated with the evolution of coastal systems by developing and applying computational models that can simulate the complex multi-scale
+processes and interactions.
+![IMG_0967](https://user-images.githubusercontent.com/18476138/150695379-6ee16c7a-c5b0-4743-aabb-94d38f5fb048.JPG)
 
-[Link](url) and ![Image](src)
-```
+- **Postdoctoral Researcher  
+[Atmopsheric Physics Lab](https://sites.google.com/view/atmphyutep/home)  
+[University of Texas at El paso](www.utep.edu)**  
+  -January 2021 - March 2021
+###### Responsibilities
+1. Analysis of Mesoscale and Synoptic Scale Meteorological Influences on Ozone.
+2. Inter-comparison of PBL using instrumental and simulation values and Interpretation of the results.
+3. System Administrator of Lab’s Server and HPC Cluster.
+4.  Mentoring Undergraduate, Master's and PhD Students and Summer Research student at UTEP.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+- **Research Assistant  
+[Atmopsheric Physics Lab](https://sites.google.com/view/atmphyutep/home)  
+[University of Texas at El paso](www.utep.edu)**  
+  - August 2014 - December 2020  
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suhail017/suhail017.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+###### Responsibilities
+1. Developed an ensemble method for determining the Planetary boundary layer
+2. Down-scaling regional weather model for Paso del Norte region to achieve more efficient and accurate forecast and prediction using data mining and machine
+learning algorithms.
+3. Worked in a project with NOAA retrieving atmospheric parameters from different Satellites by developing scripts and Algorithms.
+4.  Developed atmospheric models to investigate impact of different parameters like Ozone concentration, Photolysis coefficient etc.
+5.  Analyzed and upgraded automated interface for Numerical weather prediction models like WRF,HYSPLIT.
+
+![image](https://user-images.githubusercontent.com/18476138/150697746-7ccaf17e-7b9b-4496-9fe5-f2322f9176d1.png)
 
 ### Support or Contact
 
