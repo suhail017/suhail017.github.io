@@ -1,0 +1,195 @@
+/* Style navigation bar */
+.nav ul {
+font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 20px;
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+}
+.nav ul li {
+    display: inline;
+    padding-left: 50px;
+}
+
+.nav a {
+  text-transform: uppercase;
+    color: #393c3d;
+}
+
+/* Create dropdown menu on navigation bar */
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #f1f1f1;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Create container for large background image on home: */
+.jumbotron {
+  background-image:url("/img/MtMassiveSummit_Kelsey.JPG");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron h3 {
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+/* Style research interests container */
+.research-interests {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.research-interests h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.research-interests p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+/* Style learn more container */
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+
+/* Style footer container */
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+/* tell the container's image to float left: */
+.float-image > * {
+    float:left;
+    margin-right:5px;
+}
+
+/* Slide show only works in safari */
+/* Style slide show */
+* {box-sizing:border-box}
+body {font-family: ''Helvetica', 'Arial', 'Sans-Serif';}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1} 
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
