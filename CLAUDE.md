@@ -8,7 +8,7 @@ Suhail Mahmud's portfolio site, served by GitHub Pages at suhail017.github.io. P
 
 ## Commands
 
-- `bundle install` — one-time setup (needs Ruby ≥ 2.7).
+- `bundle install` — one-time setup (needs Ruby ≥ 3.2; Homebrew `ruby@3.3` works).
 - `bundle exec jekyll serve` — build and serve at http://127.0.0.1:4000 with live rebuild.
 - `bundle exec jekyll build` — build into `_site/` (the closest thing to a test; run before pushing).
 
