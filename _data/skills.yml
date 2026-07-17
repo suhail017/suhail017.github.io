@@ -1,0 +1,48 @@
+- group: Programming
+  items:
+    - Python (PyTorch, scikit-learn, NumPy, pandas)
+    - R
+    - Fortran (WRF)
+    - SQL
+    - Bash
+
+- group: Climate & Geospatial Data
+  items:
+    - xarray
+    - NetCDF / GRIB / HDF
+    - Reanalysis (ERA5, NCEP)
+    - NWP & WRF output
+    - Satellite data
+
+- group: Geospatial Tools
+  items:
+    - QGIS
+    - GeoPandas
+    - Shapely
+    - rasterio
+    - Cartopy
+
+- group: ML Methods
+  items:
+    - Spatio-temporal ML
+    - CNNs & RNNs
+    - XGBoost & random forests
+    - Regression (Ridge, Lasso, GLM)
+    - Hurdle & ensemble models
+
+- group: HPC & Infrastructure
+  items:
+    - SLURM / XSEDE
+    - MPI parallelism
+    - Large-ensemble simulation
+    - AWS (S3, EC2)
+    - Git
+
+- group: Data Engineering & Visualization
+  items:
+    - ETL pipeline design
+    - Snowflake
+    - Databricks / dbt
+    - PostgreSQL
+    - matplotlib / plotly
+    - Tableau / Power BI

@@ -1,0 +1,63 @@
+- title: ML Damage Models for Wildfire, Flood & Storm Surge
+  org: KatRisk LLC
+  badge: Proprietary
+  description: >-
+    Machine-learning damage ratio estimation combining geospatial exposure
+    layers with historical loss data, alongside probabilistic hazard and
+    vulnerability models feeding stochastic event catalogs used by
+    reinsurance clients.
+  tags: [Python, XGBoost, GeoPandas, rasterio, scikit-learn]
+
+- title: Stochastic Event Catalogs for Atmospheric Perils
+  org: Karen Clark & Company
+  badge: Proprietary
+  description: >-
+    Statistical and physical modeling for tropical cyclone, winter storm, and
+    severe convective storm event catalogs, with vulnerability validation
+    benchmarked against third-party catastrophe models and industry loss data.
+  tags: [Python, regression, clustering, catastrophe modeling]
+
+- title: Real-Time Weather Data Pipelines
+  org: Tomorrow.io
+  badge: Proprietary
+  description: >-
+    AWS pipelines ingesting high-resolution NWP forecasts and global
+    observations into Snowflake with automated quality control, powering
+    real-time risk analytics and ML feature pipelines.
+  tags: [AWS, Snowflake, ETL, Python, NWP]
+
+- title: Stochastic Weather Generator for the Mid-Atlantic
+  org: Penn State University
+  description: >-
+    A stochastic weather generator focused on extreme climate events in the
+    Mid-Atlantic, built as part of the MARISA and ICoM coastal-resilience
+    projects.
+  tags: [Python, R, statistics, climate extremes]
+  links:
+    - label: GitHub
+      url: https://github.com/suhail017/Stochastic-Weather-Generator
+
+- title: PBL Height Calculation using HYSPLIT
+  org: UTEP research
+  description: >-
+    Python tooling for computing planetary boundary layer heights from
+    HYSPLIT, part of a broader ensemble approach to PBL determination
+    validated against radiosonde, ceilometer, and satellite observations.
+  tags: [Python, HYSPLIT, boundary layer, atmospheric science]
+  links:
+    - label: GitHub
+      url: https://github.com/suhail017/PBL-Height-Calculation-using-Hysplit
+
+- title: ML Emulation of the Atmospheric Boundary Layer
+  org: PhD dissertation, UTEP
+  description: >-
+    Supervised-learning surrogates emulating WRF-simulated boundary layer
+    processes to accelerate large-ensemble NWP runs on XSEDE HPC systems —
+    the core of a dissertation on optimizing regional weather and air
+    quality models.
+  tags: [PyTorch, WRF, HPC, supervised learning]
+  links:
+    - label: PBL methods
+      url: https://github.com/suhail017/Methods-for-determining-PBL-heights
+    - label: WRF configs
+      url: https://github.com/suhail017/wrf-code-for-Paso-del-Norte-Region
