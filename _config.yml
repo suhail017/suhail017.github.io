@@ -1,3 +1,18 @@
-theme: jekyll-theme-hacker
-name: suhail017
-title: null
+title: Suhail Mahmud
+tagline: Computational Scientist — ML · Climate · Risk Modeling
+description: >-
+  Portfolio of Suhail Mahmud — machine learning, climate and atmospheric
+  science, and catastrophe risk modeling.
+url: "https://suhail017.github.io"
+timezone: America/New_York
+
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CLAUDE.md
+  - docs/
+  - vendor/

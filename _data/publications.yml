@@ -1,0 +1,102 @@
+journal:
+  - text: >-
+      Bhuiyan, M.A.M., Sahi, R.K., Islam, M.R., and Mahmud, S. "Machine
+      Learning Techniques Applied to Predict Tropospheric Ozone in a
+      Semi-Arid Climate Region." Mathematics 9, no. 22 (2021): 2901.
+    url: https://doi.org/10.3390/math9222901
+  - text: >-
+      Bhuiyan, M.A.M., Mahmud, S., Islam, M.R., and Tasnim, N. "Volatility
+      estimation for COVID-19 daily rates using Kalman filtering technique."
+      Results in Physics 26 (2021): 104291.
+    url: https://doi.org/10.1016/j.rinp.2021.104291
+  - text: >-
+      Mahmud, S., Karle, N.N., Fitzgerald, R.M., Lu, D., Nalli, N.R., and
+      Stockwell, W.R. "Intercomparison of Sonde, WRF/CAMx and Satellite
+      Sounder Profile Data for the Paso Del Norte Region." Aerosol Science
+      and Engineering 4, no. 4 (2020): 277–292.
+  - text: >-
+      Karle, N.N., Mahmud, S., Sakai, R.K., Fitzgerald, R.M., Morris, V.R.,
+      and Stockwell, W.R. "Investigation of the Successive Ozone Episodes in
+      the El Paso–Juarez Region in the Summer of 2017." Atmosphere 11, no. 5
+      (2020): 532.
+    url: https://doi.org/10.3390/atmos11050532
+  - text: >-
+      Bhuiyan, M.A.M., Mahmud, S., Sarmin, N., and Elahee, S. "A Study on
+      Statistical Data Mining Algorithms for the Prediction of Ground-Level
+      Ozone Concentration in the El Paso–Juarez Area." Aerosol Science and
+      Engineering (2020): 1–13.
+  - text: >-
+      Mahmud, S., Bhuiyan, M.A.M., et al. "Study of Wind Speed and Relative
+      Humidity using Stochastic Technique in a Semi-arid Climate Region."
+      AIMS Environmental Science 7, no. 2 (2020): 156–173.
+    url: https://doi.org/10.3934/environsci.2020010
+  - text: >-
+      Mahmud, S., Bhuiyan, M.A.M., et al. "Machine learning applied to study
+      ground level PM2.5 across the Paso del Norte region." Air Quality,
+      Atmosphere & Health.
+  - text: >-
+      Hussung, S., Mahmud, S., Sampath, A., Wu, M., Guo, P., and Wang, J.
+      "Evaluation of data-driven causality discovery approaches among
+      dominant climate modes." UMBC Faculty Collection (2019).
+  - text: >-
+      Mahmud, S., Wangchuk, P., Fitzgerald, R., Stockwell, W., and Lu, D.
+      "Study of the Photolysis Rate Coefficients to improve Air Quality
+      Models for the PdN region." American Physical Society, Volume 61.
+
+conference:
+  - text: >-
+      Mahmud, S., Karle, N., Fitzgerald, R., and Stockwell, W.R. "Extensive
+      Study of Planetary Boundary Layer Height in the Paso Del Norte Region
+      Using CALIPSO Satellite, Ground Based Ceilometer, Radiosonde
+      Measurement and Numerical Weather Prediction Models." AMS 100th Annual
+      Meeting, 2020.
+  - text: >-
+      Hussung, S.R., Mahmud, S., Sampath, A., Wu, M., Guo, P., and Wang, J.
+      "Evaluation of Data-Driven Causality Discovery Methods among Dominant
+      Climate Modes." AMS 100th Annual Meeting, 2020.
+  - text: >-
+      Mahmud, S., Karle, N., Fitzgerald, R., and Stockwell, W.R. "Regional
+      Weather Modeling for the Paso del Norte Region: A Sensitivity Study for
+      Determining PBL." AMS 99th Annual Meeting, 2019.
+  - text: >-
+      Karle, N., Mahmud, S., Fitzgerald, R.M., Sakai, R.K., Stockwell, W.R.,
+      Demoz, B.B., and Morris, V.R. "Analysis of Regional Meteorology During
+      the Ozone Episodes in the El Paso–Juarez Airshed in the Summer of
+      2017." AMS 99th Annual Meeting, 2019.
+  - text: >-
+      Mahmud, S., Karle, N., and Fitzgerald, R. "Inter-Comparison of WRF
+      Simulations, Radiosonde Meteorological Observations and Satellite Data
+      for the Paso del Norte Region." AMS 98th Annual Meeting, 2018.
+  - text: >-
+      DuBois, D.W., Morris, G.A., Spychala, M., Walter, P.J., Garcia, A.D.,
+      Mahmud, S., Quevedo, A., et al. "The 2017 El Paso Ozone Transport Field
+      Study." AMS 98th Annual Meeting, 2018.
+  - text: >-
+      Karle, N., Mahmud, S., and Fitzgerald, R. "Study of the Urban Heat
+      Island and its Effect on the Planetary Boundary Layer for the El
+      Paso-Juarez Airshed." AGU Fall Meeting, 2017.
+  - text: >-
+      Mahmud, S., Wangchuk, P., Fitzgerald, R., Stockwell, W., and Lu, D.
+      "Study of the Photolysis Rate Coefficients to improve Air Quality
+      Models." NOAA 8th Biennial Education and Science Forum, CUNY, 2016.
+  - text: >-
+      Mahmud, S., Lebrado, N., Fitzgerald, R., and Williams, S. "Correlation
+      Between NDVI and LST using real time imagery for the Paso Del Norte
+      Region." NOAA 8th Biennial Education and Science Forum, CUNY, 2016.
+  - text: >-
+      Mahmud, S., Wangchuk, P., Fitzgerald, R., Stockwell, W., and Lu, D.
+      "Study of the Photolysis rate coefficients to improve air quality
+      models of the El Paso–Juarez Airshed." Southwest Emerging Technology
+      Symposium, UTEP, 2016.
+  - text: >-
+      Mahmud, S., Fitzgerald, R., and Williams, S. "Real time retrieval of
+      Satellite Data for the Paso Del Norte Region." Graduate Expo, UTEP,
+      2016.
+  - text: >-
+      Mahmud, S., Wangchuk, P., Fitzgerald, R., Stockwell, W., and Lu, D.
+      "Study of the Photolysis Rate Coefficients for the Paso del Norte (PdN)
+      Region." Graduate Expo, UTEP, 2015.
+  - text: >-
+      Mahmud, S., Galib, A., Fitzgerald, R., and Williams, S. "Use of
+      Satellite Data to Perform Atmospheric Studies in the Paso del Norte
+      Region." Graduate Expo, UTEP, 2015.

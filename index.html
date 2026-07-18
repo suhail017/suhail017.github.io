@@ -1,158 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suhail Mahmud</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        #header {
-            background: #4c99af;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-
-        #menu {
-            margin: 1em 0;
-            text-align: center;
-        }
-
-        #menu ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #menu li {
-            display: inline;
-            margin: 0 1em;
-        }
-
-        #menu a {
-            text-decoration: none;
-            color: #4c99af;
-        }
-
-        #menu a:hover {
-            color: #4c99af;
-        }
-
-        #content-wrap {
-            padding: 2em;
-        }
-
-        h1 {
-            color: #af5b4c;
-        }
-
-        .container {
-            max-width: 960px;
-            margin: auto;
-        }
-
-        .profile-img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .contact-info {
-            background: #f9f9f9;
-            padding: 1em;
-            border-radius: 5px;
-            margin-bottom: 2em;
-        }
-
-        .section-title {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 0.5em;
-            margin-bottom: 1em;
-        }
-
-        .section-content {
-            margin-bottom: 2em;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="header">
-        <h1 id="logo">Suhail <span class="gray">Mahmud</span></h1>
-        <h2 id="slogan">Atmospheric Data Scientist / Computational Scientist / Cloud Computing Expert</h2>
+---
+layout: default
+---
+<section class="hero">
+  <div class="container hero-inner">
+    <img class="hero-photo" src="/images/Suhail%20Mahmud%20hs.jpg" alt="Suhail Mahmud">
+    <div>
+      <p class="kicker">ML · Climate · Risk Modeling</p>
+      <h1>Suhail Mahmud</h1>
+      <p class="summary">
+        Computational scientist and ML practitioner with 10+ years at the
+        intersection of atmospheric modeling, climate data, and machine
+        learning — from WRF-based boundary layer research to production
+        catastrophe models used by reinsurers.
+      </p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="/assets/Suhail_Mahmud_ML_Climate_Scientist.pdf">Download CV</a>
+        <a class="btn" href="https://github.com/suhail017">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/suhail-mahmud">LinkedIn</a>
+        <a class="btn" href="https://scholar.google.com/citations?user=S9X1k3IAAAAJ">Google Scholar</a>
+        <a class="btn" href="mailto:suhail017@gmail.com">Email</a>
+      </div>
     </div>
+  </div>
+</section>
 
-	
-	<div id="menu">
-        <ul>
-            <li><a href="/research">Research</a></li>
-            <li><a href="/publication">Publication</a></li>
+<section class="section" id="projects">
+  <div class="container">
+    <h2 class="section-title">Featured Work</h2>
+    <div class="card-grid">
+      {% for project in site.data.projects %}
+      <article class="card">
+        <h3>{{ project.title }}</h3>
+        <span class="org">{{ project.org }}</span>
+        {% if project.badge %}<span class="badge">{{ project.badge }}</span>{% endif %}
+        <p>{{ project.description }}</p>
+        <ul class="tags">
+          {% for tag in project.tags %}<li class="tag">{{ tag }}</li>{% endfor %}
         </ul>
+        {% if project.links %}
+        <div class="card-links">
+          {% for link in project.links %}<a href="{{ link.url }}">{{ link.label }} &rarr;</a>{% endfor %}
+        </div>
+        {% endif %}
+      </article>
+      {% endfor %}
     </div>
-    
+  </div>
+</section>
 
-    <div id="content-wrap" class="container">
-        <img src="images/Suhail Mahmud hs.jpg" class="profile-img" alt="Suhail Mahmud">
+<section class="section" id="experience">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <ul class="timeline">
+      {% for job in site.data.experience %}
+      <li class="timeline-item">
+        <h3>{{ job.role }} · {{ job.company }}</h3>
+        <span class="meta">{{ job.dates }}</span>
+        <ul>
+          {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-        <div class="contact-info">
-            <h1 class="section-title">Contact</h1>
-            <p><b>Mailing Address:</b><br />suhail017@gmail.com<br />suhail017@hotmail.com</p>
-        </div>
-
-        <div id="summary" class="section-content">
-            <h1 class="section-title">Intro</h1>
-            <p>
-				Suhail Mahmud holds a Ph.D. and a Master’s degree in Computational Science from the University of Texas at El Paso. His doctoral research concentrated on optimizing regional-scale numerical weather prediction and air quality models for the Paso Del Norte region. This research encompassed climate models, atmospheric science, meteorology, and multi-sector dynamics. A significant component involved modeling the vertical profile of pollutants and meteorological parameters using satellite-based data, such as Sounder profiles and Lidar, alongside data from ozonesonde and radiosonde launches.
-				<p>				
-					Dr. Mahmud is proficient in handling, analyzing, and processing meteorological and geospatial datasets in various formats, including NetCDF, GRIB, and HDF. His expertise spans statistical and numerical analysis using Fortran, Python, R, and MATLAB. He possesses a deep understanding of algorithms and excels in data visualization with MATLAB and Python. His technical skills extend to Python data libraries like pandas, NumPy, and SciPy, as well as SQL. He has substantial experience working in Linux environments and high-performance computing clusters on AWS, applying parallel computing methods such as MPI and OpenMP.
-				</p>
-			
-				<p>In his professional career, Dr. Mahmud currently serves as an Atmospheric Engineer at Tomorrow.io in Boston, MA. Previously, he was a Senior Research Scientist (Model Development) at Karen Clark & Company in Boston, MA. His experience also includes roles as a Postdoctoral Scholar at Penn State University, a Postdoctoral Researcher at the University of Texas at El Paso, and a Research Assistant at UTEP. Additionally, he has worked as an Instructor at Doña Ana Community College and as an Earth Station Engineer at Diganta Television in Dhaka, Bangladesh.</p>        </div>
-
-        <div id="education" class="section-content">
-            <h1 class="section-title">Educational Info</h1>
-            <ul>
-                <li><strong>PhD in Computational Science,</strong> University of Texas at El Paso, USA. <br />2016-2020</li>
-                <li><strong>MSc in Computational Science,</strong> University of Texas at El Paso, USA. <br />2014-2016</li>
-                <li><strong>B.Sc. in Electrical & Electronics Engineering,</strong> International Islamic University Chittagong, Dhaka, Bangladesh. <br />2007-2011</li>
-            </ul>
-        </div>
-
-        <div id="experience" class="section-content">
-            <h1 class="section-title">Professional Experience</h1>
-            <ul>
-                <li><strong>Atmospheric Engineer</strong><br>Tomorrow.io, Boston, MA | August 2023 - Present</li>
-                <li><strong>Senior Research Scientist (Model Development)</strong><br>Karen Clark & Company, Boston, MA | May 2022 - August 2023</li>
-                <li><strong>Postdoctoral Scholar</strong><br>Penn State University, State College, PA | March 2021 - April 2022</li>
-                <li><strong>Postdoctoral Researcher</strong><br>University of Texas at El Paso, TX | January 2021 - March 2021</li>
-                <li><strong>Research Assistant</strong><br>University of Texas at El Paso, TX | August 2016 - December 2020</li>
-                <li><strong>Instructor</strong><br>Doña Ana Community College, Las Cruces, NM | January 2018 - May 2018</li>
-                <li><strong>Earth Station Engineer</strong><br>Diganta Television, Dhaka, Bangladesh | October 2011 - June 2014</li>
-            </ul>
-        </div>
-
-        <div id="voluntary" class="section-content">
-            <h1 class="section-title">Voluntary Experience</h1>
-            <ul>
-				<li><strong>Vice President (March 2021 - April 2022),</strong> Penn State Postdoc Association, Pennsylvania State University </li>
-				<li><strong>Vice President (August 2018 - January 2019),</strong> CPS student association, UTEP</li>
-                <li><strong>Program Organizer (August 2016 - August 2017),</strong> Society for Industrial and Applied Mathematics (SIAM)</li>
-                <li><strong>Vice President (August 2016 - August 2018),</strong> Muslim Student Association, UTEP Chapter</li>
-            </ul>
-        </div>
-
-        <div id="certifications" class="section-content">
-            <h1 class="section-title">Certification</h1>
-            <ul>
-                <li><strong>CCNA (Cisco Certified Networking Associate),</strong><br />CISCO Networking Academy at American International University Bangladesh, 2010</li>
-                <li><strong>Big data analytics,</strong><br />University of Texas at El Paso, 2019</li>
-            </ul>
-        </div>
+<section class="section" id="skills">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+    {% for group in site.data.skills %}
+    <div class="chip-group">
+      <h3>{{ group.group }}</h3>
+      <ul class="chips">
+        {% for item in group.items %}<li class="chip">{{ item }}</li>{% endfor %}
+      </ul>
     </div>
-</body>
+    {% endfor %}
+  </div>
+</section>
 
-</html>
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <ol class="pub-list">
+      {% for pub in site.data.publications.journal %}
+      <li>{{ pub.text }}{% if pub.url %} <a href="{{ pub.url }}">[link]</a>{% endif %}</li>
+      {% endfor %}
+    </ol>
+    <details class="pub-more">
+      <summary>Conference presentations ({{ site.data.publications.conference | size }})</summary>
+      <ul class="pub-list">
+        {% for pub in site.data.publications.conference %}<li>{{ pub.text }}</li>{% endfor %}
+      </ul>
+    </details>
+    <p class="pub-profiles">
+      Full record on
+      <a href="https://scholar.google.com/citations?user=S9X1k3IAAAAJ">Google Scholar</a> and
+      <a href="https://www.researchgate.net/profile/Suhail_Mahmud">ResearchGate</a>.
+    </p>
+  </div>
+</section>
+
+<section class="section" id="blog">
+  <div class="container">
+    <h2 class="section-title">Writing</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit: 3 %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a href="/blog/">All posts &rarr;</a></p>
+  </div>
+</section>

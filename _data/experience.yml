@@ -1,0 +1,55 @@
+- role: Senior Data Scientist
+  company: KatRisk LLC
+  dates: Aug 2024 – Jan 2026
+  highlights:
+    - Built probabilistic hazard and vulnerability models for wildfire, flood,
+      and storm surge perils, feeding stochastic event catalog workflows used
+      by reinsurance clients.
+    - Developed ML-based damage ratio estimation models combining geospatial
+      exposure layers with historical loss data, improving loss curve accuracy.
+    - Processed and quality-controlled large geospatial hazard datasets for
+      downstream probabilistic modeling and cat model scoring.
+
+- role: Data Engineer
+  company: Tomorrow.io
+  dates: Aug 2023 – Aug 2024
+  highlights:
+    - Engineered cloud-based pipelines on AWS to ingest high-resolution NWP
+      forecasts and observational weather data for real-time risk analytics.
+    - Built ETL workflows loading multi-source atmospheric and satellite
+      datasets into Snowflake, supporting downstream ML feature pipelines.
+    - Developed quality-control checks for global weather data streams,
+      handling gaps, outliers, and format inconsistencies.
+
+- role: Senior Research Scientist
+  company: Karen Clark & Company
+  dates: May 2022 – Aug 2023
+  highlights:
+    - Contributed statistical and physical modeling to stochastic event
+      catalogs for tropical cyclone, winter storm, and severe convective storm
+      perils.
+    - Led historical loss analysis and vulnerability model validation,
+      benchmarking against third-party cat models and industry datasets.
+    - Applied regression and clustering methods to improve damage function
+      estimation across diverse building stock and exposure portfolios.
+
+- role: Postdoctoral Scholar
+  company: Penn State University
+  dates: Jan 2021 – Apr 2022
+  highlights:
+    - Researched atmospheric boundary layer dynamics with WRF large-eddy
+      simulation — turbulence structure, surface flux parameterization, and
+      validation against observations.
+    - Built a stochastic weather generator for the Mid-Atlantic region focused
+      on extreme climate events.
+
+- role: Research Assistant (PhD)
+  company: University of Texas at El Paso
+  dates: Aug 2014 – Dec 2020
+  highlights:
+    - Developed ML surrogate models emulating WRF-simulated boundary layer
+      processes, accelerating large-ensemble runs on XSEDE HPC systems.
+    - Built ingestion pipelines for reanalysis and NWP outputs with quality
+      control across vertical atmospheric profiles.
+    - Authored peer-reviewed publications on ML-based atmospheric modeling;
+      presented at SIAM and AMS national conferences.
